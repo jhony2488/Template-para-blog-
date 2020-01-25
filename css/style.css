@@ -1,0 +1,225 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    width: 100%;
+    min-width: 100%;
+}
+
+.cabeçalho {
+    width: 100%;
+    min-width: 100%;
+    background-color: black;
+    align-items: center;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    text-shadow: 2px 2px blue;
+}
+
+.logo2 {
+    color: whitesmoke;
+}
+
+.tec {
+    color: #007fff;
+    margin-right: -0.2em;
+    text-shadow: 2px 2px white !important;
+}
+
+
+/* estilo do menu */
+
+.nav {
+    position: relative;
+    display: inline-block;
+    font-size: 1.6vw;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    padding-bottom: 10px;
+}
+
+.nav-item {
+    float: left;
+    *display: inline;
+    list-style: none;
+}
+
+.nav-item a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    background: black;
+}
+
+.nav-item a:hover {
+    background: #007fff;
+}
+
+.nav-item :link {
+    color: white;
+    background: black;
+}
+
+
+/* Menu responsivo  */
+
+.nav-mobile {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #007fff;
+    border-radius: 5px;
+    line-height: 50px;
+    width: 100%;
+    height: 50px;
+}
+
+.nav-mobile:after {
+    content: " 	↓MENU";
+}
+
+.nav-active {
+    display: block !important;
+    margin-top: 50px;
+}
+
+.nav-mobile-open {
+    border-radius: 5px 5px 0 0;
+}
+
+.nav-mobile-open:after {
+    content: "X Fechar";
+}
+
+
+/*Conteúdo e posts do site */
+
+.conteudo {
+    width: 75%;
+    min-width: 75%;
+    max-width: 100%;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.postagens {
+    width: 64%;
+    float: left;
+    margin-bottom: 4em;
+    margin-top: 2.4em;
+}
+
+.area-lateral {
+    width: 31%;
+    float: right;
+    box-shadow: 10px 10px 10px 10px grey;
+    margin-top: 2.4em;
+}
+
+.footer {
+    text-align: center;
+    width: 100%;
+    clear: both;
+    padding: 15px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 1.25em;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #007fff;
+}
+
+.footer a:hover {
+    color: goldenrod;
+}
+
+.postagem {
+    width: 100%;
+    max-width: 100%;
+    box-shadow: 10px 10px 10px 10px grey;
+    padding: 10px;
+    clear: both;
+    margin-bottom: 2.5em;
+}
+
+.postagem img {
+    max-width: 100%;
+}
+
+.postagem h2 {
+    font-size: 2em;
+    text-align: center;
+    color: #007fff;
+}
+
+.data {
+    text-align: center;
+    font-size: 0.8em;
+    padding: 0.7em;
+}
+
+.postagem p {
+    font-size: 1.15em;
+}
+
+.postagem a {
+    font-size: 1.3em;
+    color: #009fff;
+    text-decoration: none;
+}
+
+.postagem a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.conteudo-lateral h3 {
+    background-color: #009fff;
+    font-size: 2em;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.conteudo-lateral p {
+    font-size: 0.9em;
+    padding: 5px;
+}
+
+.conteudo-lateral a {
+    font-size: 1.1em;
+    color: #009fff;
+    text-decoration: none;
+}
+
+.conteudo-lateral a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.conteudo-lateral ul li {
+    list-style: none;
+    font-size: 1.2em;
+    margin: 0.5em;
+}
