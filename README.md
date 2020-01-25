@@ -1,8 +1,8 @@
 # Template para blog 
 
-português:Template para blog utilizando CSS E JavaScript puros.
+português:Template para blog utilizando CSS e JavaScript puros.
 
-English:Bg template using CSS and javaScript.
+English: Template for blog using pure CSS and JavaScript.
 
 ## Video demonstrativo(demo video):
 
